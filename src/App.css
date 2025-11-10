@@ -1,0 +1,177 @@
+body {
+  max-width: 1440px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+h1 img {
+  font-family: "Lexend";
+  font-size: 20px;
+  padding: 0 1rem;
+}
+h3 {
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid;
+  width: 994;
+}
+.header img {
+  width: 965px;
+  height: 612px;
+  object-fit: cover;
+  align-items: center;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  border: 1px solid;
+  font-size: 24px;
+  font-weight: bold;
+}
+.footer-title {
+  margin: 15px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid;
+}
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+  margin: 15px 0px;
+}
+.button {
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(220, 152, 152);
+  border-radius: 25px;
+  color: aliceblue;
+  width: 145px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  background-color: black;
+  color: pink;
+  font-weight: bold;
+  height: 50px;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  right: 0;
+  width: 48px;
+  height: 36px;
+  font-weight: bold;
+}
+.header-logo {
+  font-size: 32px;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 329px;
+  height: 42px;
+  background-color: pink;
+  position: absolute;
+  top: 40%;
+  left: 250px;
+}
+
+.modal-text {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  margin: 15px 15px;
+}
+
+.select-form {
+  border: 1px solid;
+  margin: 15px;
+  text-align: left;
+  width: 230px;
+  height: 30px;
+}
+.modal-form {
+  margin: 15px;
+}
+label {
+  text-align: left;
+  padding: 10px;
+  left: 0;
+}
+option {
+  border: 1px solid;
+  left: 0;
+}
+
+.checkbox-text {
+  font-weight: bold;
+  margin: 15px 15px;
+}
+
+legend {
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+.textbox {
+  text-align: left;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.checkbox-form {
+  margin: 0px 10px;
+}
+
+.modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgb(17, 17, 17);
+  width: 330px;
+  height: 32px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+textarea {
+  border: 1px solid;
+  width: 436px;
+  height: 48px;
+  margin: 25px 0px;
+}
+
+.contact-text {
+  text-align: left;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.contact-top {
+  text-align: center;
+  margin: 20px 0;
+}
+dt {
+  display: flex;
+}
